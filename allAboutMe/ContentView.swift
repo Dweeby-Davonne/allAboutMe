@@ -15,8 +15,9 @@ struct ContentView: View {
             
             VStack {
                 
-                Text("Hello, My name is Davonne!")
+                Text("Hello, my name is Davonne!")
                     .font(Font.title)
+                    .foregroundColor(Color(hue: 0.422, saturation: 0.375, brightness: 0.269))
                     .multilineTextAlignment(TextAlignment.center)
                 VStack(alignment: .leading) {
                     
@@ -29,11 +30,11 @@ struct ContentView: View {
                             .cornerRadius(15)
                             .padding()
                         
-                        Text("Im 16 years old")
+                        Text("Im 16 years old.")
                             .font(.footnote)
-                        Text("I enjoy experimenting with different art mediums")
+                        Text("I enjoy experimenting with different art mediums.")
                             .font(.footnote)
-                        Text("I have roughly 20 siblings in total")
+                        Text("I have roughly 20 siblings in total.")
                             .font(.footnote)
                         
                     }
